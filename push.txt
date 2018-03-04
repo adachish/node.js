@@ -1,0 +1,9 @@
+$ git add .
+$ git commit -m "Version3"
+[master 6646443] Version3
+ 1 file changed, 2 insertions(+)
+ create mode 100644 update.txt
+
+$ git remote add origin https://github.com/adachish/node.js.git
+fatal: remote origin already exists.
+$ git push -u origin master
